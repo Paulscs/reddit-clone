@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { ImageDown, Link2 } from "lucide-react";
 
 interface CreatePostCardProps {
-  subName: string;
+  subName?: string;
 }
 
 export function CreatePostCard({ subName }: CreatePostCardProps) {
